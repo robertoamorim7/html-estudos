@@ -1,0 +1,81 @@
+<h1>ANOTAÇÕES HTML</h1>
+
+<!--
+    Atributos html
+    -toda tag tem atributos
+    -informações extras
+    -configurações
+-->
+
+<img src="imagem.png" alt="texto alternativo">
+
+<br>
+
+<!--
+    Atributos booleanos (vdd ou falso)
+    -nao precisam de conteudo
+-->
+<input type="text" disabled>
+
+<br>
+
+<!--
+    Aspas
+    -omissão
+    -simples
+    -duplas
+    Sempre usar aspas duplas!!!
+-->
+
+<a href="para onde o link vai nos levar">link</a>
+
+<br>
+
+<!--
+    Atriutos globais (aplicados a todas as tags) mais utilizados:
+
+    -class
+    -condenditable
+    -data-*
+    -hidden
+    -id
+    -style
+    -tabindex
+    -title
+-->
+
+<div class="carrinho">
+    <!-- elementos da classe aqui dentro
+        a classe é utilizada para aplicar estilo css e
+        para acessar no JS-->
+</div>
+
+<div class="carrinho" contenteditable="true">
+    conteudo
+    <!-- o conteudo da div pode ser editado com o contenditable-->
+</div>
+
+<div class="carrinho" data-qualquer-nome-aqui="" id="name">
+    conteudo
+    <!-- nos permite armazenar informações extras em elementos HTML padrões e semânticos, sem a necessidades de hacks como classList, atributos fora do padrão, propriedades extras no DOM ou o método depreciado setUserData-->
+    <!-- ID tem apenas um por pagina, diferentemente
+        da classe que pode se repetir e utilizar varias -->
+</div>
+
+<div class="carrinho" hidden >
+    conteudo
+    <!-- esconder uma tag-->
+</div>
+
+<div class="carrinho" style="color: blue"">
+    conteudo
+    <!-- altera estilização diretamente pelo html
+        geralmente se aplica a estilização direto na div -->
+</div>
+
+<div tabindex="1" title="Definir um titulo">
+    conteudo
+    <!--a ordem dotabindex informa para onde o cursor irá
+    após o usurario apertar tab-->
+    <!--- title define um titulo para a tag-->
+</div>
