@@ -1,0 +1,141 @@
+<!--
+    Semantica:
+
+    -dar significado
+    -elementos semanticos
+    -quanto melhor a semantica melhor posicionado nas buscas do google
+-->
+ <!--
+     Cabeçalhos e parágrafos
+     -de preferencia um h1 por pagina
+     -o principal elemento da pagina
+     -ordem de importancia visual entre os hs
+     -o proprio h faz o espaçamento/paragrafo
+     -mais de 3 hs na pagina indica que algo está errado ou deve ser mostrado em outra página
+ -->
+
+ <h1>Sobre mim</h1>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quis eos eligendi. Consectetur, labore exercitationem incidunt sequi, odio ullam velit repellendus cum, quaerat totam excepturi. Fuga delectus alias quisquam ullam.
+
+ <h2>Nascimento</h2>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, facilis laboriosam necessitatibus debitis aspernatur sint nisi! Maxime veniam accusantium dolores dicta vel pariatur. Mollitia tempore laboriosam sapiente doloribus molestiae eum!
+
+ <h2>Traalho</h2>
+ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam magnam debitis natus corporis, quisquam mollitia asperiores sequi veniam, quod ipsum quae nam eum, animi provident impedit doloribus. Enim, nostrum corporis?
+<a href="">Saiba mais.</a>
+
+<!--
+    Listas
+    -ordenadas
+    -nao ordenadas
+-->
+
+<h1>Suco detox</h1>
+<h2>Ingredientes</h2>
+
+<ol>
+<li>3 folhas de couve;</li>
+<li>1 laranja;</li>
+<li>300 ml de agua;</li>
+<li>Adoçante a gosto;</li>
+<li>Gelo a gosto.</li>
+</ol>
+
+<ul>
+    <li>3 folhas de couve;</li>
+    <li>1 laranja;</li>
+    <li>300 ml de agua;</li>
+    <li>Adoçante a gosto;</li>
+    <li>Gelo a gosto.</li>
+</ul>
+
+<!--
+    Citações
+    
+    <blockquote> indica que um texto externo foi citado
+
+    <cite> atributo de citação que vai ao lado da tag, para obter vantagens de acessibilidade.
+
+    <q> usado para citações curtasque nao precisam quebras de linhas
+-->
+
+<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+    O <strong>Elemento HTML <code>&lt;blockquote&gt;</code> </strong> (ou <em>HTML Block
+    Quotation Element</em>) indica que um texto externo foi citado.
+</blockquote>
+
+<p>De acordo com <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+    <cite>página MDN blockquote</cite></a>:
+</p>
+
+<p>O elemento quote — <code>&lt;q&gt;</code> — é <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">usado para citações curtas que não precisam de parágrafos ou quebras de linha.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+    <cite>MDN q page</cite></a>.</p>
+
+<!--
+    Abreviações
+
+   <aabr>
+-->
+
+<p>Usamos <abbr title="Hypertext Markup Language">HTML</abbr> para estruturar nossos documentos da web.</p>
+
+<!--
+    Detalhes de contato
+    
+    <adress> detalhes de contato de quem fez a pagina html
+-->
+<address>
+    <p>Roberto Vinicius <br>
+    <strong>Manaus, AM</strong></p>
+</address>
+
+<!--
+    Listas de descrição
+
+    <dl> description list
+        <dt></dt> description term
+        <dd></dd> description definition
+    </dl>
+-->
+
+<h2>Glossario</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>Pequena descrição sobre o termo...</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação do texto pipipi...</dd>
+
+    <dt>Language</dt>
+    <dd>Linguagem com semantica e sintaxe...</dd>
+</dl>
+
+<!--
+    Representando codigos de computador
+
+    <code>
+        Partes genéricas de codigo
+
+    <pre>
+        blocos de codigo, pois essa tag mantem os espaços em branco e recuos que eu colocaria no meu codigo
+-->
+
+<pre>
+    <code>
+        documento
+            .querySelector("body")
+    </code>
+</pre>
+    
+<!--
+    Elementos graficos
+
+    * <div> tag usado para agrupar conteudo; ideia de bloco
+        se usa com atributos geralmente (class)
+    * <span> tag usada para agrupar texto; ideia mais de linha
+-->
+
+<div class="cart">
+    <span>Camiseta</span>
+    <span>R$ 100,00</span>
+</div>
