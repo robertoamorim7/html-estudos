@@ -1,0 +1,92 @@
+<!--
+    <img>
+
+    - src
+    - alt
+    - title
+    - width
+    - height
+    - adicionando link 
+-->
+
+<img 
+    src="https://source.unsplash.com/random" 
+    alt="imagem de title"
+    title="colocar um titulo na imagem que aparece quando o mouse descansa em cima da imagem"
+    width="300"
+    height="300"
+>
+
+<!-- imagem com link -->
+<a href="https://google.com" target="_blank">
+    <img 
+    src="https://source.unsplash.com/random" 
+    alt="imagem de title"
+    title="colocar um titulo na imagem que aparece quando o mouse descansa em cima da imagem"
+    width="300"
+    height="300"
+>
+
+</a>
+
+<!--
+    background-image
+
+    - com a tag style
+    - somente para estilo
+    - não é semântico e falta signficado
+-->
+
+<p style="background-image: url('./assets/assets-example/ball.png');">Imagem</p>
+
+<!--
+    Criando títulos visíveis para as imagens
+
+    <figure> e <figcaption>
+-->
+
+<a href="https://rocketseat.com.br/">
+    <figure>
+        <img 
+        src="https://rocketseat.com.br/icons/icon-48x48.png" 
+        alt="Texto alternativo"
+        title="Ícone Rocketseat"
+        height="500"
+        >
+        <figcaption>Colocar um titulo na imagem</figcaption>
+    </figure>
+</a>
+
+
+<!--
+    SVG <svg>
+    
+    É é uma marcação. estilo html, mas não é para textos, e sim para fazer imagens.
+    Possuimos elementos para gerar formas
+
+    - Imagem rasterizada x imagem vetorizada
+
+    Benefícios
+    - Mais leve
+    - mais detalhada
+    - maior acessibilidade e SEO
+    - pode ser editada via css e atributos
+
+    Desvantagens
+    - pode ser mais complicado de trabalhar
+    - quanto mais complexa a imagem, mais trabalho para o navegador
+    - navegadores mais antigos não possuem suporte a essa tag
+
+    Para fotografias, ainda prefira usar imanges rasterizadas
+
+    Pode ser feito em sites como o figma
+
+    https://developer.mozilla.org/pt-BR/docs/Web/SVG/Element/svg
+
+-->
+
+<svg width="200" height="200">
+    <circle cx="100" cy="100" r="80" stroke="green" stroke-width="4" fill="yellow"/>
+</svg>
+
+<img src="./assets/assets-example/ball.svg" alt="">

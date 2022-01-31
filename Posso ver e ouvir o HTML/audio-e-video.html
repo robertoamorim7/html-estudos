@@ -1,0 +1,82 @@
+<!--
+    <video>
+
+        - src
+        - controls
+        - se não funcionar?
+            - fallback content
+        - source
+            - src
+            - type
+        
+        -sobre serviços de terceiros
+-->
+
+<video src="./assets/assets-example/rocket.mp4" controls>
+    <p>Não funciona no seu navegador</p>
+</video>
+
+<video controls
+    width="300px"
+    height="200"
+    autoplay
+    preload="metadata"
+    preload="auto"
+    loop
+    poster="imagem de fundo antes do video começar"
+>
+    <source src="./assets/assets-example/rocket.mp4" type="video/mp4">
+    <p>Não funciona no seu navegador</p>
+</video>
+
+<!--
+    <audio>
+
+        - src
+        - controls
+        - se não funcionar?
+            - fallback content
+        - source
+            - src
+            - type
+-->
+
+<audio src="./assets/assets-example/viper.mp3" controls></audio>
+
+<audio controls>
+    <source src="./assets/assets-example/viper.mp3"
+        type="audio/mp3">
+        <source src="./assets/assets-example/viper.ogg"
+            stype="audio/ogg">
+</audio>
+<br>
+<!--
+    <iframe>
+
+    - atributos
+        - src
+        - hight
+        - width
+        - title (acessibilidade)
+        - allowfullscreen
+        - frameborder
+-->
+<iframe 
+    width="560"
+    height="315" 
+    src="https://www.youtube.com/embed/HJF-mI3HoMQ" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe> <br>
+<iframe src="https://www.youtube.com/watch?v=HJF-mI3HoMQ" frameborder="0"></iframe>
+<br>
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15936.346296000336!2d-59.9297096!3d-3.0715427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdadd64d3f34089c1!2sBar%20do%20Seu%20Ilson!5e0!3m2!1spt-BR!2sbr!4v1643235994619!5m2!1spt-BR!2sbr" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
