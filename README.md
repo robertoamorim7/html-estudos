@@ -1,2 +1,2 @@
 # html-estudos
-Acompanhamento dos estudos com html
+Acompanhando estudos com html
